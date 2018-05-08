@@ -1,0 +1,10 @@
+Add a new user - POST - baseurl/user?mobile=8655122295&fcm=adf1a34afad165456a4f
+  Response: {"status":"success"}
+Get all users - GET - baserul/
+  Response: [{"id":1,"name":"Admin","email":"admin@sharmaclasses.co.in","password":"sharm#123","mobile":"9090909090","type":"admin","fcm":"","is_active":1,"is_deleted":0,"created_at":"2017-07-01 12:43:15","updated_at":"2017-07-01 12:43:15"},{"id":2,"name":null,"email":null,"password":null,"mobile":"8655122295","type":null,"fcm":"adf1a34afad165456a4f","is_active":1,"is_deleted":0,"created_at":"2017-07-01 13:28:14","updated_at":"2017-07-01 13:28:14"}]
+Get Single user by ID - GET - baseurl/user/1
+  Response: {"id":1,"name":"Admin","email":"admin@sharmaclasses.co.in","password":"sharm#123","mobile":"9090909090","type":"admin","fcm":"","is_active":1,"is_deleted":0,"created_at":"2017-07-01 12:43:15","updated_at":"2017-07-01 12:43:15"}
+Update a User - PUT - baseurl/user/2?mobile=9090909090&fcm=adfadf5454564adfdf
+  Response: {"status":"success"}
+Delete a User - DELETE - baseurl/user/2
+  Response: {"status":"success"}

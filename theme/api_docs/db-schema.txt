@@ -1,0 +1,14 @@
+Table: users
+    'id', 'name', 'email', 'password', 'mobile', 'type', 'fcm', 'is_active', 'is_deleted', 'created_at', 'updated_at'
+
+Table: subjects
+    'id', 'name', 'is_active', 'is_deleted', 'create_by', 'created_at', 'updated_at'
+
+Table: chapters
+    'id', 'subject_id', 'name', 'content', 'is_active', 'is_deleted', 'create_by', 'created_at', 'updated_at'
+
+Table: tests
+    'id', 'subject_id', 'name', 'time', 'is_active', 'is_deleted', 'create_by', 'created_at', 'updated_at'
+
+Table: questions
+    'id', 'test_id', 'que_hindi', 'que_eng', 'opt1_hindi', 'opt1_eng', 'opt2_hindi', 'opt2_eng', 'opt3_hindi', 'opt3_eng', 'opt4_hindi', 'opt4_eng', 'ans_hindi', 'ans_eng', 'image', 'is_active', 'is_deleted', 'create_by', 'created_at', 'updated_at'
